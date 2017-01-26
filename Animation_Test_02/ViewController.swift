@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         var earthX = midViewX + cos(angleEarthAfterCalculate)*200
         var earthY = midViewY + sin(angleEarthAfterCalculate)*200
         
-        
+        //
         switch recognizer .state
         {
         case .began, .changed:
