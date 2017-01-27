@@ -16,7 +16,7 @@ class ViewController: UIViewController {
             self.colorView.addGestureRecognizer(dragBall)
         }
     }
-    var frame:CGRect = CGRect(x: 100, y: 100, width: 40, height: 100)
+    var frame:CGRect = CGRect(x: 100, y: 100, width: 40, height: 90)
     
     override func viewDidLoad() {
         colorView = UIView(frame: frame)
