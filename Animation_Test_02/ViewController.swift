@@ -37,10 +37,10 @@ class ViewController: UIViewController {
     //ova razgledaj go
     func dragBall(recognizer: UIPanGestureRecognizer) {
         
-        var angleEarth: Double = 180
-        var angleEarthAfterCalculate: CGFloat = CGFloat(angleEarth*M_PI/180) - CGFloat(M_PI/2)
-        var earthX = midViewX + cos(angleEarthAfterCalculate)*200
-        var earthY = midViewY + sin(angleEarthAfterCalculate)*200
+        //let angleEarth: Double = 180
+        //let angleEarthAfterCalculate: CGFloat = CGFloat(angleEarth*M_PI/180) - CGFloat(M_PI/2)
+        //let earthX = midViewX + cos(angleEarthAfterCalculate)*200
+        //let earthY = midViewY + sin(angleEarthAfterCalculate)*200
         
         //
         switch recognizer .state
